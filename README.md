@@ -87,8 +87,10 @@ DTO layer is used to separate API request/response from database entities.
   "gender": "Male",
   "address": "Andhra Pradesh"
 }
+```
+## 📤 Sample Response
 
-📤 Sample Response
+```json
 {
   "id": 1,
   "rollNumber": "23A81A0000",
@@ -96,50 +98,42 @@ DTO layer is used to separate API request/response from database entities.
   "branch": "CSE",
   "section": "A"
 }
+```
 
-⚠️ Error Handling
+## ⚠️ Error Handling
 
 Example:
+```json
 {
   "message": "Phone number must be 10 digits",
   "status": 400,
   "timestamp": "2026-04-25T..."
 }
+```
 
 ---
 
 ## ▶️ How to Run
-
 1. Clone repository:
-
-git clone https://github.com/saroja810/student-management-system.git
-
+    git clone https://github.com/saroja810/student-management-system.git
 2. Open project in IDE (VS Code / IntelliJ)
-
-3. Run the application
-
-4. Access API:  
-[http://localhost:8080/students](http://localhost:8080/students)
-
-5. Open H2 Console:  
-[http://localhost:8080/h2-console](http://localhost:8080/h2-console)
-
----
+3. Run application
+4. Access API:
+    http://localhost:8080/students
+5. Open H2 Console:
+    http://localhost:8080/h2-console
 
 ## 🔮 Future Enhancements
-
-- JWT Authentication (Login & Role-based access)  
-- MySQL/PostgreSQL integration (persistent database)  
-- Attendance management module  
-- Marks/Results module  
-- Faculty management  
-- Frontend integration (React)  
-- AI-based student performance insights  
-
----
+    - 🔐 JWT Authentication (Login & Role-based access)
+    - 🗄️ MySQL/PostgreSQL integration (persistent database)
+    - 📊 Attendance management module
+    - 📈 Marks/Results module
+    - 👨‍🏫 Faculty management
+    - 📱 Frontend integration (React)
+    - 🤖 AI-based student performance insights
 
 ## 👨‍💻 Author
 
 Saroja  
 B.Tech Computer Science Student  
-Building backend applications with Spring Boot and continuously improving development skills  
+Developed as part of backend learning using Spring Boot.
