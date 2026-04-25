@@ -33,18 +33,20 @@ This project demonstrates clean architecture using DTO, validation, and global e
 
 ## 📁 Project Structure
 
+```text
 src/main/java/com/sms/studentmanagement/
 
-├── controller # Handles API requests
-├── services # Business logic
-├── repository # Database access
-├── entity # Database models
-├── dto # Request & Response objects
-├── exception # Global exception handling
+├── controller        # Handles API requests
+├── services          # Business logic
+├── repository        # Database access
+├── entity            # Database models
+├── dto               # Request & Response objects
+├── exception         # Global exception handling
 
 src/main/resources/
-├── application.properties
 
+├── application.properties
+```
 
 ---
 
@@ -104,27 +106,40 @@ Example:
   "timestamp": "2026-04-25T..."
 }
 
-▶️ How to Run
-1. Clone repository:
-    git clone https://github.com/saroja810/student-management-system.git
-2. Open project in IDE (VS Code / IntelliJ)
-3. Run application
-4. Access API:
-    http://localhost:8080/students
-5. Open H2 Console:
-    http://localhost:8080/h2-console
+---
 
-🔮 Future Enhancements
-    - 🔐 JWT Authentication (Login & Role-based access)
-    - 🗄️ MySQL/PostgreSQL integration (persistent database)
-    - 📊 Attendance management module
-    - 📈 Marks/Results module
-    - 👨‍🏫 Faculty management
-    - 📱 Frontend integration (React)
-    - 🤖 AI-based student performance insights
+## ▶️ How to Run
+
+1. Clone repository:
+
+git clone https://github.com/saroja810/student-management-system.git
+
+2. Open project in IDE (VS Code / IntelliJ)
+
+3. Run the application
+
+4. Access API:  
+[http://localhost:8080/students](http://localhost:8080/students)
+
+5. Open H2 Console:  
+[http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+
+---
+
+## 🔮 Future Enhancements
+
+- JWT Authentication (Login & Role-based access)  
+- MySQL/PostgreSQL integration (persistent database)  
+- Attendance management module  
+- Marks/Results module  
+- Faculty management  
+- Frontend integration (React)  
+- AI-based student performance insights  
+
+---
 
 ## 👨‍💻 Author
 
 Saroja  
 B.Tech Computer Science Student  
-Developed as part of backend learning using Spring Boot.
+Building backend applications with Spring Boot and continuously improving development skills  
