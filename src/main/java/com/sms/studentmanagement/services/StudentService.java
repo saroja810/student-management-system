@@ -1,6 +1,5 @@
 package com.sms.studentmanagement.services;
 
-import com.sms.studentmanagement.entity.Student;
 import com.sms.studentmanagement.dto.StudentResponseDto;
 import com.sms.studentmanagement.dto.StudentRequestDto;
 import java.util.List;

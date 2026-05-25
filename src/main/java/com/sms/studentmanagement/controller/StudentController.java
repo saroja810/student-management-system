@@ -1,6 +1,5 @@
 package com.sms.studentmanagement.controller;
 
-import com.sms.studentmanagement.entity.Student;
 import com.sms.studentmanagement.services.StudentService;
 
 import jakarta.validation.Valid;
